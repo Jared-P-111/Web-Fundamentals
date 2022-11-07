@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <h2>First Name:*</h2>
+    <input type="text" name="first_name" />
+    <h2>Last Name:*</h2>
+    <input type="text" name="last_name" />
+    <h2>Email:*</h2>
+    <input type="email" name="email" />
+    <h2>Password:*</h2>
+    <input type="password" name="password" />
+    <h2>Confirm Password:*</h2>
+    <input type="password" name="confirm_password" />
+    <h2>Birthday:*</h2>
+    <input type="date" name="birthday" />
+    <h2>Gender Identity</h2>
+    <input type="radio" name="gender" value="male" id="male" />
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="female" id="female" />
+    <label for="female">Female</label>
+    <input type="radio" name="gender" value="non-binary" id="non-binary" />
+    <label for="male">Non-binary</label>
+    <input type="radio" name="gender" value="preferNoAnswer" id="preferNoAnswer" />
+    <label for="male">I prefer not to answer</label>
+    <h4>A short description about myself</h4>
+    <textarea name="comment" cols="20" rows="3"></textarea>
+    <h2>Favorite Language:</h2>
+    <div>
+      <select name="language">
+        <option>Javascript</option>
+        <option>C++</option>
+        <option>Rust</option>
+        <option>Golang</option>
+      </select>
+    </div>
+    <div>
+      <input type="checkbox" name="accept" id="accept" />
+      <label for="accept">Yes, I would like to receive periodic email updates</label>
+    </div>
+    <input type="submit" value="Create Account" />
+    <p>* Indicates a required field</p>
+  </body>
+</html>

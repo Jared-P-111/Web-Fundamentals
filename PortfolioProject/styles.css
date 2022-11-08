@@ -1,0 +1,32 @@
+#portJaredImg {
+  height: 150px;
+}
+
+.iconSize {
+  font-size: 30px;
+}
+
+.iconMargin {
+  margin: 10px;
+}
+
+.iconSizeLrg {
+  font-size: 100px;
+}
+
+.styledTable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+
+.styledTable th,
+.styledTable td {
+  padding: 10px 12px;
+}
+
+.formCSS {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 10;
+}
+
+body {
+  background-color: rgb(239, 239, 239);
+}
+
+#flagContainer {
+  display: block;
+  height: 50vh;
+  width: 100%;
+  outline: 3px solid black;
+}
+
+.flagSize {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 33%;
+  display: inline-block;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#white {
+  background-color: white;
+}

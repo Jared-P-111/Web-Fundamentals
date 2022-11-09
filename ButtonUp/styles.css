@@ -1,0 +1,45 @@
+#buttonsContainer {
+  width: 400px;
+  height: 400px;
+  margin: 100px;
+}
+
+#searchButton {
+  border-color: rgb(62, 194, 181);
+  width: 200px;
+  padding: 6px;
+  font-size: 20px;
+  background-color: rgb(249, 253, 253);
+  border-radius: 20px;
+  border-style: solid;
+  color: rgb(62, 194, 181);
+}
+
+#addBtn {
+  display: flex;
+  color: white;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(62, 194, 181);
+  font-size: 30px;
+  border-radius: 30px;
+  font-weight: 800;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+#createAccount {
+  display: flex;
+  height: 50px;
+  width: 250px;
+  background-color: rgb(0, 140, 255);
+  border: 3px solid black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 15px;
+  box-shadow: 6px 6px 0 #000000;
+}

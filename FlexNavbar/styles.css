@@ -50,3 +50,11 @@ body {
   color: white;
   box-shadow: 3px 3px 0px rgb(0, 0, 0);
 }
+
+.wrapper {
+  display: flex;
+}
+.topContent {
+  display: flex;
+  justify-content: space-evenly;
+}

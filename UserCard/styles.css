@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.cardContainer {
+  margin-top: 200px;
+  height: 400px;
+}
+
+.userAvatar {
+  position: absolute;
+  width: 75px;
+  top: 30px;
+  left: 30px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 200px;
+  box-shadow: 0 0 0 2px #cdcdcd;
+}
+
+.userCard {
+  outline: 3px solid #cccccc;
+  width: 550px;
+  position: relative;
+}
+
+.cardHeader {
+  display: flex;
+  background-color: #17a2b8;
+  height: 70px;
+}
+
+.cardBody {
+  padding: 50px 30px 30px 30px;
+}
+
+.locationInfoContainer {
+  display: flex;
+}
+
+.mapIcon {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.userEditContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 95px;
+}
+
+.gearIcon {
+  width: 15px;
+  height: 15px;
+}

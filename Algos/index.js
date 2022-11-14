@@ -1,17 +1,43 @@
-function isPal(arr) {
-  for (var left = 0; left < arr.length / 2; left++) {
-    var right = arr.length - 1 - left;
-    if (arr[left] != arr[right]) {
-      return 'Not a pal-indrome!';
-    }
-  }
-  return 'Pal-indrome!';
+function d6() {
+  var roll = Math.random();
+  var floored = Math.floor(roll * 6 + 1);
+
+  //should return 1,2,3,4,5, or 6
+  return floored;
 }
 
-var result1 = isPal([1, 1, 2, 2, 1]);
-console.log(result1);
+var playerRoll = d6();
+console.log(`The player rolled a ${playerRoll}!!`);
 
-//                         ⬇  ⬇
-var result2 = isPal([3, 2, 1, 1, 2, 3]);
-//                   0  1  2  3  4  5 <- Index
-console.log(result2);
+//write a bit of code to randomly print an option from the following array
+var lifesAnswers = [
+  'It is certain.',
+  'It is decidedly so.',
+  'Without a doubt.',
+  'Yes - definitely.',
+  'You may rely on it.',
+  'As I see it, yes.',
+  'Most likely.',
+  'Outlook good.',
+  'Yes.',
+  'Signs point to yes.',
+  'Reply hazy, try again.',
+  'Ask again later.',
+  'Better not tell you now.',
+  'Cannot predict now.',
+  'Concentrate and ask again.',
+  "Don't count on it.",
+  'My reply is no.',
+  'My sources say no.',
+  'Outlook not so good.',
+  'Very doubtful.',
+];
+
+function askTheEightBall(lifesAnswers) {
+  var roll = Math.random();
+  var floored = Math.floor(roll * lifesAnswers.length);
+
+  return lifesAnswers[floored];
+}
+
+console.log(askTheEightBall(lifesAnswers));

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-wrapper">
+        <div class="nav-left-wrap">
+          <h1 class="nav-title">Profile</h1>
+          <ul class="nav-links">
+            <li><a href="#" class="list-item">Home</a></li>
+            <li><a href="#" class="active list-item">My Profile</a></li>
+            <li><a href="#" class="list-item">Find Connections</a></li>
+          </ul>
+        </div>
+        <button class="btn">Sign Out</button>
+      </div>
+    </nav>
+    <main>
+      <div class="main-wrapper">
+        <div class="left-column">
+          <div class="user-card">
+            <img class="user-avatar" src="./assets/user-circle.png" alt="user" />
+            <div class="card-header-profile"></div>
+            <div class="card-body">
+              <h1 class="user-name">Jane Doe</h1>
+              <div class="location-info-container">
+                <img src="assets/map-marker.png" class="map-icon" />
+                <h3 class="location">Seattle</h3>
+              </div>
+              <p class="user-info">
+                Developer | Engineer | Problem Solver <br />
+                Master of shadows and the Internet!
+              </p>
+              <div class="user-edit-container">
+                <img src="./assets/gear.png" class="gear-icon" />
+                <a href="#" class="user-link-to-profile">edit profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="card-header">
+              <p class="card-title">Education</p>
+            </div>
+            <div class="edu-card-body">
+              <h3>Coding Dojo - Full Stack Bootcamp</h3>
+              <h4 class="date">Dec 2019 - Mar 2020</h4>
+              <p class="edu-body-para">
+                Triple black belt in Python, MERN, and C# with numerous hours worked fingers started bleeding from typing and eyeballs almost fell out
+                of his head.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="connection-card">
+            <div class="card-header">
+              <div class="curr-connections">2</div>
+              <p class="card-title">Connection Requests</p>
+            </div>
+            <div class="connections">Your Connections</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

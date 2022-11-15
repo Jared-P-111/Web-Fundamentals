@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+body {
+  height: 100vh;
+}
+
+/*-------------------> NAV <--------------------*/
+
+.nav {
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.nav-left-wrap {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: white;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.list-item {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9e9e9e;
+}
+
+.active {
+  color: #ededed;
+}
+
+.btn {
+  width: 100px;
+  height: 35px;
+  font-size: 18px;
+  color: white;
+  background-color: #17a2b8;
+}
+
+/* -----------------------> MAIN <------------------------*/
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-wrapper {
+  display: flex;
+  margin-top: 30px;
+  width: 1000px;
+  height: 90vh;
+}
+
+.left-column {
+  width: 60%;
+  margin-right: 30px;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  margin-bottom: 30px;
+  outline: 4px solid #cccccc;
+  position: relative;
+}
+
+.user-name {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-avatar {
+  position: absolute;
+  width: 100px;
+  top: 60px;
+  left: 35px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 200px;
+  box-shadow: 0 0 0 4px #cdcdcd;
+}
+
+.card-header-profile {
+  display: flex;
+  background-color: #17a2b8;
+  height: 120px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px 30px 30px 30px;
+  height: 50%;
+}
+
+.location-info-container {
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map-icon {
+  width: 17px;
+  height: 17px;
+  object-fit: contain;
+}
+
+.location {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.user-edit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 105px;
+}
+
+.gear-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.user-link-to-profile {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #327ce4;
+}
+
+/*---------------------> EDUCATION CARD <---------------------*/
+
+.edu-card {
+  height: 300px;
+  outline: 4px solid #cccccc;
+}
+
+.card-title {
+  font-family: arial;
+  color: #fbfbfb;
+  font: bolder;
+  font-size: 20px;
+}
+
+.card-header {
+  height: 60px;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.edu-card-body {
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.edu-card h3 {
+  margin-top: 20px;
+}
+
+.date {
+  color: #989898;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.edu-body-para {
+  margin-top: 20px;
+}
+
+/*-----------------------> RIGHT COLUMN <---------------------*/
+
+.right-column {
+  width: 45%;
+}
+
+.connection-card {
+  font-family: Arial, Helvetica, sans-serif;
+  outline: 4px solid #cccccc;
+}
+
+.curr-connections {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background-color: #b4b4b4;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.connection-requests {
+  display: block;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 30px;
+  outline: 4px solid #cccccc;
+}
+
+.connections {
+  height: 200px;
+}

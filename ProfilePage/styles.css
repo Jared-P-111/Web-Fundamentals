@@ -96,6 +96,11 @@ main {
   position: relative;
 }
 
+.user-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 .user-name {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -226,13 +231,107 @@ main {
 }
 
 .connection-requests {
-  display: block;
-  height: 300px;
+  height: 250px;
   width: 100%;
   margin-bottom: 30px;
   outline: 4px solid #cccccc;
 }
 
 .connections {
+  display: flex;
+  flex-direction: column;
   height: 200px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  margin-top: 15px;
+}
+
+.contact-group {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact-img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact-name {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.contact-controls {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  background-color: #999999;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+/* ---------------------> YOUR CONNECTIONS <----------------------*/
+
+.your-connections {
+  margin-top: 30px;
+  outline: 4px solid #cccccc;
+}
+
+.connections-header {
+  height: 60px;
+  background-color: #333333;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.connections-header p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.connections-amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  background-color: #cccccc;
+  width: 60px;
+  height: 30px;
+  border-radius: 60%;
+}
+
+#last-contact {
+  margin-bottom: 4px;
+}
+
+.contact-footer {
+  display: flex;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 30px;
+  outline: 4px solid #cccccc;
+  padding: 6px;
 }

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid red; */
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: grey;
+  display: flex;
+  height: 90px;
+  width: 1000px;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 40px;
+}
+
+#logo {
+  font-size: 40px;
+}
+
+#search-bar {
+  width: 350px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#login-btn {
+  background-color: #2b78e4;
+  width: 80px;
+  color: white;
+  font-size: 15px;
+  height: 30px;
+}
+
+/* ------------------------> MAIN <--------------------------*/
+
+main {
+  margin: 0 auto;
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#column-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.definition-box {
+  display: flex;
+  width: 600px;
+  height: 250px;
+  border: 3px solid black;
+  margin-bottom: 30px;
+}
+
+.def-box-left-col {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.def-box-left-col h2 {
+  font-size: 30px;
+}
+
+.def-box-left-col h2,
+p {
+  text-align: center;
+}
+
+.like-btn {
+  text-align: center;
+  background-color: #ffd966;
+  height: 30px;
+}
+
+.def-box-right-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.def-box-right-col p {
+  font-size: 25px;
+}
+
+/* ---------------------> COLUMN TWO <---------------------*/
+
+#column-two {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 30px;
+}
+
+#new-definition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  border: 3px solid black;
+  height: 150px;
+}
+
+#new-definition p {
+  font-size: 30px;
+  text-align: left;
+}
+
+#new-definition button {
+  width: 100%;
+  align-self: center;
+  height: 50px;
+  background-color: #93c47d;
+}

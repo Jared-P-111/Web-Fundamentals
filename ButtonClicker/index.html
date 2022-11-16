@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Button Clicker</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <p id="logo">Dojonary</p>
+        <input id="search-bar" placeholder="Search" />
+        <button id="login-btn" onclick="changeLogin()">Login</button>
+      </div>
+    </nav>
+    <main>
+      <div id="main-wrapper">
+        <div id="column-one">
+          <div class="definition-box">
+            <div class="def-box-left-col">
+              <h2>Ninja</h2>
+              <p>noun</p>
+              <p>Plural: ninjas</p>
+              <button class="like-btn">0 Likes</button>
+            </div>
+            <div class="def-box-right-col">
+              <p>
+                A practitioner skilled in the <a href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a> art of
+                <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a>
+              </p>
+            </div>
+          </div>
+          <div class="definition-box">
+            <div class="def-box-left-col">
+              <h2>Ninja</h2>
+              <p>noun</p>
+              <p>Plural: ninjas</p>
+              <button class="like-btn">0 Likes</button>
+            </div>
+            <div class="def-box-right-col">
+              <div class="def-box-right-col">
+                <p>
+                  A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with
+                  <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="column-two">
+          <div id="new-definition">
+            <p>Dojonary is <br />defined by YOU</p>
+            <button id="newDefinitionBtn" onclick="removeAddDefinitionBtn()">Add Definition</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
